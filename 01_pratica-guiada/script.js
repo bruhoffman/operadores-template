@@ -27,18 +27,19 @@ console.log("<---------- Exercício de Prática 03 ----------->");
 /* const anoUser1 = +prompt("Digite o ano de nascimento do primeiro usuário:");
 const anoUser2 = +prompt("Digite o ano de nascimento do segundo usuário:");
 
-const maioridadeUser1 = 2023 - anoUser1;
-const maioridadeUser2 = 2023 - anoUser2;
+const anoAtual = 2023;
 
-console.log("O usuário E o seu companheiro tem maioridade?", (maioridadeUser1 >= 18) && (maioridadeUser2 >= 18));
-console.log("O usuário OU o seu companheiro tem maioridade?", (maioridadeUser1 >= 18) || (maioridadeUser2 >= 18));
-console.log("Ambos NÃO tem maioridade?", !(maioridadeUser1 >= 18) && !(maioridadeUser2 >= 18)); */
+const idadeUser1 = anoAtual - anoUser1;
+const idadeUser2 = anoAtual - anoUser2;
+
+console.log("O usuário E o seu companheiro tem maioridade?", (idadeUser1 >= 18) && (idadeUser2 >= 18));
+console.log("O usuário OU o seu companheiro tem maioridade?", (idadeUser1 >= 18) || (idadeUser2 >= 18));
+console.log("Ambos NÃO tem maioridade?", !(idadeUser1 >= 18) && !(idadeUser2 >= 18)); */
 
 console.log("------------------------------------------------");
-
-console.log("<--------- Exercício de Prática Extra --------->");
+/* console.log("<--------- Exercício de Prática Extra --------->");
 const idadeUser = +prompt("Qual a tua idade?");
 const idadeAmigo = +prompt("E qual a idade do teu melhor amigo(a)?");
 
 console.log("Sua idade é maior que a do seu melhor amigo?", idadeUser > idadeAmigo);
-console.log(Math.abs(idadeUser - idadeAmigo));
+console.log(Math.abs(idadeUser - idadeAmigo)); */
